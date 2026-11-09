@@ -59,7 +59,7 @@ Human3R also documents optional/environment-dependent setup for `gsplat`, compil
 **Official weights page:** https://huggingface.co/faneggg/human3r/tree/main  
 **Official code repository:** https://github.com/fanegg/Human3R
 
-| Checkpoint | Description | Usage |
+| Checkpoint |描述| Usage |
 | --- | --- | --- |
 | [`human3r_896L.pth`](https://huggingface.co/faneggg/human3r/blob/main/human3r_896L.pth) | Human3R ViT-L / 896 | **Main backbone for JAR-HMR official experiments** |
 | [`human3r_672S.pth`](https://huggingface.co/faneggg/human3r/blob/main/human3r_672S.pth) | Human3R ViT-S / 672 | Optional lightweight baseline |
@@ -132,7 +132,7 @@ Human3R/src/models/smplx/smplx2smpl.pkl
 
 Human3R's [official evaluation guide](https://github.com/fanegg/Human3R/blob/master/docs/eval.md) covers **3DPW, EMDB, and RICH**. These benchmarks serve different purposes:
 
-| Dataset / split | Main evaluation task | Access | Status in this README |
+| Dataset / split | Main evaluation task |访问| Status in this README |
 | --- | --- | --- | --- |
 | **3DPW (test)** | Camera-coordinate human mesh reconstruction | Official dataset download, subject to terms | **JAR-HMR full-test evaluation performed** |
 | **EMDB1** | Camera-relative / local human mesh reconstruction | **Institutional-email application and approval required** | JAR-HMR evaluation conducted |
