@@ -1,0 +1,8 @@
+{
+  "human3r_repo": "/path/to/Human3R",
+  "human3r_896l_weight": "/path/to/human3r_896L.pth",
+  "jcr_checkpoint": "/path/to/your_JCR_best.pt",
+  "external_2d_observations": "/path/to/your_e4_2d_observations.pkl",
+  "dataset_3dpw_root": "/path/to/3DPW",
+  "torch_hub_cache": "/path/to/torch_cache"
+}
